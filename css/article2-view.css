@@ -1,0 +1,26 @@
+.header.header__article{
+	height: 400px;
+}
+
+.header__article .header__texture{
+	background: url('../image/lebron-more.jpg') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 0;left: 0;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.5;
+}
+
+.h__slogan-title{
+	font-family: 'Nunito';
+	letter-spacing: 1px;
+	font-style: normal;
+	word-spacing: 1px;
+}
+
+.article__view-container{
+	width: 60%;
+	margin: auto;
+}

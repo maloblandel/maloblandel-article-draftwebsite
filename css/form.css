@@ -1,0 +1,68 @@
+form.css
+
+.form{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.form__title{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 30px;
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 15px;
+}
+
+
+.form__inner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__line{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.form__block{
+	width: 200px;
+	margin: 0 15px;
+}
+
+.form__label{
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.form__input{
+	height: 40px;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid red;
+	outline: 0;
+	padding-left: 10px;
+	transition: all 0.3s ease-in-out;
+	font-size: 15px;
+	font-family: 'nunito';
+	margin-bottom: 20px;
+}
+
+.form__input:focus {
+	border-color: rgba(0,0,0,0.5);
+}
+
+.btn{
+	border: none;
+	cursor: pointer;
+
+}
+	
+
+
